@@ -64,7 +64,7 @@ li>a{
     gap: 15px;
     }
 }
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:814px) {
     .pages-link>li{
        display: none;
         }
@@ -81,8 +81,16 @@ li>a{
     align-items: center;
     padding: 30px 20px;
 }
-.big-burger{
+.burger-img{
     width: 100%;
+    padding: 0px 20px;
+}
+#big-burger{
+    width: 100%;
+}
+.hero-content{
+    width: 100%;
+    padding: 0px 10px;
 }
 .heading1{
     color: white;
@@ -103,7 +111,7 @@ li>a{
     padding: 20px 0px;
 }
 .icon-section{
-    width: 60%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,23 +119,106 @@ li>a{
 .nife{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 15px;
 }
 #spone{
-    width: 100;
+    color: rgb(221, 149, 15);
+    font-size: xx-large;
 }
 .drop{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 15px;
+}
+#drop{
+    color: rgb(221, 149, 15);
+    font-size:35px;                                                        
 }
 .leaf{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 15px;
 }
-
+#leaf{
+    color: rgb(221, 149, 15);
+    font-size: xx-large;
+}
 
 .icon-pera{
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.learn{
+    width: 30%;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: x-small;
+    border: none;
+    background-color: rgb(255, 196, 0);
+    margin-top: 30px;
+}
+
+@media only screen and (max-width:1060px) {
+    .heading1{
+        width: 75%;
+    }
+    .pera1{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:960px) {
+       .heading1{
+        width: 100%;
+    }
+    .pera1{
+        width: 100%;
+    }
+    .icon-section{
+        width: 70%;
+    }
+    .learn{
+        width: 40%;
+    }
+}
+@media only screen and (max-width:814px) {
+    .main-content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .burger-img{
+        display: flex;
+        justify-content: center;
+    }
+    .hero-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px 100px;
+    }
+    .pera1{
+        font-size: small;
+    }
+
+    .learn{
+        width: 30%;
+        padding: 10px 20px;
+    }
+   
+}
+@media only screen and (max-width:528px) {
+    .hero-content{
+        padding: 10px 40px;
+    }
+    .learn{
+        width: 40%;
+    }
+}
+@media only screen and (max-width:407px) {
+    .hero-content{
+        padding: 10px 10px;
+    }
+    .learn{
+        width: 40%;
+    }
 }
